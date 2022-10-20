@@ -6,7 +6,7 @@
     <div class="container">
         <h1>Employee Registration</h1>
         <form action="{{route('create')}}" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"><input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
             <div class="mb-2">
                 <label for="first_name">First Name</label>
                 <input class="form-control" name="first_name" id="first_name" type="text">

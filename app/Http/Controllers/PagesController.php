@@ -14,6 +14,8 @@ class PagesController extends Controller
 
     public function about(){
         return view('pages.about');
+        // return [1,2,3];
+        // return redirect();
     }
 
     
